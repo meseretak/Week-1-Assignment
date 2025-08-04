@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meseret Akalu's HTML5 web page showcasing accessibility and SEO." />
+  <meta name="keywords" content="HTML5, Accessibility, SEO, Contact Form, Semantic HTML" />
+  <meta name="author" content="Meseret Akalu" />
+  <title>Meseret Akalu | HTML5 Accessibility & SEO</title>
+</head>
+
+<body>
+  <header>
+    <h1>HTML5: Accessibility & SEO Fundamentals</h1>
+    <nav aria-label="Main menu">
+      <ul>
+        <li><a href="#about">About HTML5</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#seo">SEO Basics</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About HTML5</h2>
+      <p>HTML5 introduces semantic elements that improve structure, accessibility, and search engine indexing for modern websites.</p>
+    </section>
+
+    <section id="accessibility">
+      <h2>Accessibility Features</h2>
+      <p>Semantic elements and ARIA attributes help screen readers interpret page content and navigation effectively.</p>
+    </section>
+
+    <section id="seo">
+      <h2>SEO Best Practices</h2>
+      <p>Using clean heading structures, metadata, and descriptive content improves visibility and discoverability on search engines.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Meseret Akalu</h2>
+      <p>If you'd like to connect, please use the form below or reach out via email or phone.</p>
+
+      <address>
+        <p>Email: <a href="mailto:meseretinsa@gmail.com">meseretinsa@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251912465247">+251 912 465 247</a></p>
+      </address>
+
+      <form action="#" method="post" aria-label="Contact form">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" value="Meseret" required />
+
+          <br />
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" value="Akalu" required />
+
+          <br />
+
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male" selected>Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="preferNot">Prefer not to say</option>
+          </select>
+
+          <br />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="0" placeholder="Your age" />
+
+          <br />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" value="meseretinsa@gmail.com" required />
+
+          <br />
+
+          <label for="cv">Upload CV:</label>
+          <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" />
+
+          <br /><br />
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meseret Akalu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
